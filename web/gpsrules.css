@@ -1,0 +1,157 @@
+/* 
+    Document   : gpsrules
+    Created on : July 31, 2006, 4:25 PM
+    Author     : Sauter
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* CSS for GPS App  */
+
+body {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: small;
+}
+
+div.autocomplete {        
+        position:absolute;
+        background-color:white;
+        border:1px solid black;
+        margin:0px;
+        padding:0px;
+        display: none;
+        font-family: sans-serif;
+}
+
+div.masthead {
+	background-color: #D2B48C;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	color: black;
+	padding: 5px;
+}
+
+div.toolTip {
+	background-color: yellow;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	color: black;
+	font-size: 70%;
+	padding: 5px;
+	position: absolute;
+	width: 200px;
+	visibility: hidden;
+}
+
+div.toolTipV {
+	background-color: yellow;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	color: black;
+	font-size: 70%;
+	padding: 5px;
+	position: absolute;
+        text-align: center;
+	width: 200px;
+	visibility: hidden;
+}
+
+div.toolTipHeader {
+	font-weight: bold;
+	text-align: center;
+}
+
+div.toolTipSwitch {
+	background-color: yellow;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	color: black;
+	font-size: 60%;
+
+}
+	
+
+h1, h2, h3, h4, h5, h6 {
+	background-color: white;
+	color: blue;
+	text-align: center;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+h3.red {
+	color: red;
+}
+
+h3.blue {
+	color: blue;
+}
+
+h3.green {
+	color: green;
+}
+
+span.headerLabel {
+	color: red;
+	font-size: 80%;
+}
+
+span.headerData {
+	color: black;
+	font-size: 80%;
+}
+
+span.toolTipHeader {
+	font-weight: bold;
+	text-align: center;
+}
+
+span.label {
+	font-weight: bold;
+	font-size: 80%;
+}
+
+span.limits {
+	color: green;
+	font-size: 80%;
+}
+
+span.limits2 {
+	color: green;
+	font-size: 80%;
+}
+
+span.requiredLabel {
+	color: red;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+span.fixedLabel {
+        color: green;
+        font-weight: bold;
+        font-size: 80%;
+}
+
+span.dataField {
+	font-size: 80%;
+}
+
+
+span.dataField2 {
+	font-size: 55%;
+}
+
+span.units {
+	color: blue;
+}
