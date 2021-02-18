@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd">
     <resource-ref>
         <description>
             Progress JDBC DataSource
@@ -215,10 +215,12 @@
         <servlet-class>gpsFamily.gpsfnf2</servlet-class>
     </servlet>
     <servlet><servlet-name>gpsbcf1</servlet-name><servlet-class>gpsSubfamily.gpsbcf1</servlet-class></servlet><servlet><servlet-name>gpsbcf2</servlet-name><servlet-class>gpsSubfamily.gpsbcf2</servlet-class></servlet>
+<!--
     <servlet>
         <servlet-name>gpsbcf3</servlet-name>
         <servlet-class>gpsSubfamily.gpsbcf3</servlet-class>
     </servlet>
+-->
     <servlet>
         <servlet-name>gpsbcf4</servlet-name>
         <servlet-class>gpsSubfamily.gpsbcf2</servlet-class>
@@ -590,6 +592,7 @@
         <servlet-name>gpsobf3</servlet-name>
         <servlet-class>gpsSelectBoxOptions.gpsobf3</servlet-class>
     </servlet>
+<!--
     <servlet>
         <servlet-name>searchHold</servlet-name>
         <servlet-class>webTest.searchHold</servlet-class>
@@ -598,6 +601,7 @@
         <servlet-name>searchDispatcherOld</servlet-name>
         <servlet-class>webTest.searchDispatcherOld</servlet-class>
     </servlet>
+-->
     <servlet>
         <servlet-name>gpsdbf2</servlet-name>
         <servlet-class>gpsParmData.gpsdbf2</servlet-class>
@@ -894,10 +898,12 @@
         <servlet-name>gpsbcf2</servlet-name>
         <url-pattern>/gpsbcf2.do</url-pattern>
     </servlet-mapping>
+<!--
     <servlet-mapping>
         <servlet-name>gpsbcf3</servlet-name>
         <url-pattern>/gpsbcf3.do</url-pattern>
     </servlet-mapping>
+-->
     <servlet-mapping>
         <servlet-name>gpsbcf4</servlet-name>
         <url-pattern>/gpsbcf4.do</url-pattern>
@@ -1312,6 +1318,7 @@
         <servlet-name>gpsobf3</servlet-name>
         <url-pattern>/gpsobf3.do</url-pattern>
     </servlet-mapping>
+<!--
     <servlet-mapping>
         <servlet-name>searchHold</servlet-name>
         <url-pattern>/searchHold.do</url-pattern>
@@ -1320,6 +1327,7 @@
         <servlet-name>searchDispatcherOld</servlet-name>
         <url-pattern>/searchDispatcherOld.do</url-pattern>
     </servlet-mapping>
+-->
     <servlet-mapping>
         <servlet-name>gpsdbf2</servlet-name>
         <url-pattern>/gpsdbf2.do</url-pattern>
