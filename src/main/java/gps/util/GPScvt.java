@@ -101,8 +101,8 @@ public class GPScvt {
         boolean allowZero = flags.indexOf("Z") != -1;
         String parts [];
         
-        // if tildes are allowed AND work string starts with ± do this:
-        if ( (flags.indexOf("T") > -1) && (work.indexOf("±") == 0) ) {
+        // if tildes are allowed AND work string starts with Â± do this:
+        if ( (flags.indexOf("T") > -1) && (work.indexOf("Â±") == 0) ) {
             work = work.substring(1);
             work = "-" + work + "~" + work;
         }
@@ -327,7 +327,7 @@ public class GPScvt {
             if (part1.indexOf("-") == 0) {
                 part1 = part1.substring(1);
                 if (part1.equals(part2)) {
-                    result = "±" + part1;
+                    result = "Â±" + part1;
                 }
             }
         }
