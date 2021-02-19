@@ -30,7 +30,7 @@ public class GPSsubfamilyCodes {
     private boolean debugSw = false;
     private final String version = "1.5.05";
     
-    private final int ARRAY_SIZE = 1200;
+    private final int ARRAY_SIZE = 2000;
     private String[] altFamilyCode = new String[ARRAY_SIZE];
     private String[] altSubfamilyCode = new String[ARRAY_SIZE]; 
     private int[] custBuys = new int[ARRAY_SIZE];
