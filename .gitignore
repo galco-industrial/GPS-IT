@@ -1,10 +1,9 @@
-# Default ignored files
+# Exclude Intellij project file
 .idea
-out
-target
-
 **/*.iml
 
 
-# Default ignored files
-/.idea/workspace.xml
+# Exclude maven bujild target folder
+out
+target
+
