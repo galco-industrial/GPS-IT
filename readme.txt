@@ -29,7 +29,7 @@
               type="javax.sql.DataSource" removeAbandoned="true"
               removeAbandonedTimeout="120"
               url="jdbc:datadirect:openedge://lambda-app1.galco.com:2017;databaseName=web-galco"
-              username="root" password=""
+              username="" password=""
               driverClassName="com.ddtek.jdbc.openedge.OpenEdgeDriver"
               maxActive="10" maxIdle="10" minIdle="0" maxWait="15"
                />
